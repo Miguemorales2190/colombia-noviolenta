@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#d9d9d9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.book-container{
+    width:90%;
+    max-width:1000px;
+}
+
+.book{
+    background:white;
+    border-radius:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+    overflow:hidden;
+    min-height:600px;
+}
+
+.page{
+    display:none;
+}
+
+.page.active{
+    display:block;
+}
+
+.page-content{
+    display:flex;
+    min-height:600px;
+}
+
+.left-page,
+.right-page{
+    width:50%;
+    padding:40px;
+}
+
+.left-page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-right:3px solid #ddd;
+}
+
+.left-page img{
+    width:100%;
+    max-width:300px;
+    border-radius:10px;
+}
+
+.right-page{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.right-page h1{
+    margin-bottom:20px;
+    color:#1f4e79;
+}
+
+.right-page ul{
+    margin-top:10px;
+    margin-left:20px;
+}
+
+.single-page{
+    padding:50px;
+    
+}
+
+.single-page h1{
+    color:#1f4e79;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.single-page p,
+.single-page li{
+    line-height:1.8;
+    font-size:18px;
+}
+
+.menu{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:30px;
+}
+
+.module-card{
+    background:#1f4e79;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.controls{
+    text-align:center;
+    margin-top:20px;
+}
+
+.controls button{
+    background:#1f4e79;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    margin:5px;
+    cursor:pointer;
+    border-radius:5px;
+    font-size:16px;
+}
+
+.controls button:hover{
+    background:#163956;
+}
+
+.btn{
+    display:inline-block;
+    padding:10px 20px;
+    background:#1f4e79;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.page-active-1{
+    
+    
+    
+    text-align: center;
+}
+
+.titulo-1{
+    text-align: center;
+    font-size: 20px;
+    color: #1f4e79;
+    margin-bottom: 20px;
+}

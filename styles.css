@@ -324,11 +324,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
 }
 
 .logos img{
-    max-width: 140px;
+    max-width: 250px;
     height: auto;
 }
 
@@ -843,7 +843,7 @@ blockquote{
 }
 
 .modulo3-banner{
-    background: linear-gradient(135deg,#991b1b,#dc2626);
+    background: linear-gradient(135deg,oklch(69.167% 0.15423 26.972),hwb(10 35% 15%));
     color:white;
     padding:40px;
     border-radius:15px;
@@ -852,7 +852,7 @@ blockquote{
 }
 
 .etiqueta-modulo{
-    background:rgba(255,255,255,.2);
+    background:salmon;
     padding:8px 18px;
     border-radius:30px;
     font-weight:bold;
@@ -866,6 +866,7 @@ blockquote{
 .subtitulo-modulo{
     margin-top:15px;
     font-style:italic;
+    color: white;
 }
 
 .alerta-modulo{
@@ -1102,7 +1103,7 @@ blockquote{
 }
 
 .alerta-especializada{
-    background: linear-gradient(135deg,#991b1b,#dc2626);
+    background: linear-gradient(135deg,oklch(69.167% 0.15423 26.972),hwb(10 35% 15%));
     color:white;
     padding:35px;
     border-radius:15px;
@@ -1231,3 +1232,30 @@ blockquote{
     transform: translateY(-3px);
 }
 
+.nota-importante{
+    background: #fff7ed;
+    border-left: 5px solid #f97316;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.nota-importante h3{
+    color: #c2410c;
+    margin-bottom: 10px;
+}
+
+.mensaje-final{
+    margin-top: 25px;
+    background: #ecfdf5;
+    border-left: 5px solid #22c55e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mensaje-final p{
+    color: #166534;
+    margin: 0;
+    line-height: 1.8;
+}
